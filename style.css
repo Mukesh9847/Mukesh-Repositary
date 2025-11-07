@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e5e5e5;
+    border: 4px solid rgb(187, 185, 185);
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+    height:100%;
+    
+
+}
+#heading{
+    background-color: #457b9d;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+#input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#convertions{
+ width: 100%;
+ text-align: center;
+ padding-top: none;
+}
+
+#Length{
+  background-color:  #ffffff; 
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  height: 70px;
+  
+}
+
+#Volume {
+  background-color:  #ffffff;
+  height: 70px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#Mass {
+  background-color: #ffffff;
+  height: 70px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.text{
+    margin-top: 1px;
+    color: #457b9d;
+}
+
+#title{
+    color: white;
+}
+#input-El{
+    width: 60px;
+    height: 50px;
+    background:#457b9d ;
+    border: 2px solid #f0f0f0;
+    color: #ffffff;
+    font-size: larger;
+    text-align: center;
+}
+
+
+
